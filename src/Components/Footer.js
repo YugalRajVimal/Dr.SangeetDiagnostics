@@ -109,7 +109,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-4 text-sm">
               <li className="flex items-center gap-2">
                 <FaPhoneAlt className="text-[#0fa3a3]" /> 
-                  <span>Call: <a href="tel:8448863291" className="hover:underline">8448863291</a></span>
+                  <span>Call: <a href="tel:7065070650" className="hover:underline">7065070650</a></span>
               </li>
               <li className="flex items-center gap-2">
                 <FaWhatsapp className="text-green-500" /> 

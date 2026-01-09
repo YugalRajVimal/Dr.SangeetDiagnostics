@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutClaritySection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-[#bfe3e6] via-[#e8f5f6] to-[#fdf7f2] py-24">
+    <section className="relative overflow-hidden bg-gradient-to-r from-[#bfe3e6] via-[#e8f5f6] to-[#fdf7f2]  py-24">
 
       <div className="relative max-w-7xl mx-auto px-6 mb-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         

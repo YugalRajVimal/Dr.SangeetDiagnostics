@@ -161,9 +161,12 @@ function PackageCard({ title, price, includes, icon, highlight }) {
         <span className="font-medium text-gray-700">Includes:</span> {includes}
       </p>
 
-      <button className="mt-6 w-full rounded-full bg-[#0fa3a3] py-3 text-white font-medium hover:bg-[#0c8c8c] transition">
+      <a
+        href="/contact"
+        className="mt-6 w-full inline-block text-center rounded-full bg-[#0fa3a3] py-3 text-white font-medium hover:bg-[#0c8c8c] transition"
+      >
         Book Now
-      </button>
+      </a>
     </motion.div>
   );
 }

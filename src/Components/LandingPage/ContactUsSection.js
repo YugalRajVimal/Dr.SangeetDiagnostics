@@ -206,7 +206,7 @@ export default function ContactSection() {
             iconBg="bg-[#e6f6f6]"
             title={
               <>
-                <a href="tel:8448863291" className="hover:underline">8448863291</a>
+                <a href="tel:7065070650" className="hover:underline">7065070650</a>
                 <span className="mx-1 text-gray-400">|</span>
                 <a href="https://wa.me/917065070650" target="_blank" rel="noopener noreferrer" className="hover:underline">70650 70650</a>
               </>

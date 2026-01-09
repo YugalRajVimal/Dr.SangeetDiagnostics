@@ -50,13 +50,14 @@ export default function FinalCTA() {
             the difference of expert diagnostics and compassionate care.
           </p>
 
-          <motion.button
+          <motion.a
+            href="tel:7065070650"
             whileHover={{ scale: 1.06 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-10 inline-flex items-center rounded-full bg-[#0fa3a3] px-10 py-4 text-white font-medium shadow-lg hover:bg-[#0c8c8c] transition"
+            className="mt-10 inline-flex mb-10 items-center rounded-full bg-[#0fa3a3] px-10 py-4 text-white font-medium shadow-lg hover:bg-[#0c8c8c] transition"
           >
             Call us now
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </section>

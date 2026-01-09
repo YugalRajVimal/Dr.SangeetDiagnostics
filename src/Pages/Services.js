@@ -131,7 +131,7 @@ export default function Services() {
           ))}
           <div className="w-full flex justify-center mt-4 md:col-span-3">
             <a
-              href="#pricing"
+              href="/contact"
               className="inline-block rounded-full bg-[#0fa3a3] text-white hover:scale-[1.1] px-6 py-2 font-semibold text-lg shadow hover:bg-[#157e81] hover:text-white transition focus:outline-none focus:ring-2 focus:ring-[#0fa3a3] focus:ring-offset-2 border border-[#0fa3a3]"
             >
               Check Packages &amp; Pricing
@@ -146,7 +146,7 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          className="my-20 max-w-4xl mx-auto text-center"
+          className="my-20 max-w-4xl px-10 mx-auto text-center"
         >
           <h3 className="text-2xl md:text-3xl font-serif font-bold mb-4 text-[#0f3d3e]">
             Why Choose Dr. Sangeet Diagnostics?
@@ -180,9 +180,9 @@ export default function Services() {
               Personalized diagnostic solutions and home sample collection are available across East Delhi & NCR.
             </p>
           </div>
-          <div className="flex flex-col justify-center sm:flex-row gap-4 mt-8">
+          <div className="flex w-fit mx-auto flex-col justify-center sm:flex-row gap-4 mt-8">
             <motion.a
-              href="tel:8448863291"
+              href="tel:7065070650"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center rounded-full bg-[#0fa3a3] px-4 py-1 text-white font-medium text-base shadow hover:bg-[#0c8c8c] transition"
@@ -202,7 +202,7 @@ export default function Services() {
               WhatsApp
             </motion.a>
             <motion.a
-              href="#contact"
+              href="/contact"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center rounded-full border border-[#0fa3a3] bg-white px-4 py-1 text-[#0fa3a3] font-medium text-base shadow-sm hover:bg-[#e6f6f6] transition"

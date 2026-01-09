@@ -43,7 +43,7 @@ export default function HeroSection() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <motion.a
-              href="tel:8448863291"
+              href="tel:7065070650"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center rounded-full bg-[#0fa3a3] px-4 py-1 text-white font-medium text-base shadow hover:bg-[#0c8c8c] transition"
@@ -63,7 +63,7 @@ export default function HeroSection() {
               WhatsApp
             </motion.a>
             <motion.a
-              href="#contact"
+              href="/contact"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center justify-center rounded-full border border-[#0fa3a3] bg-white px-4 py-1 text-[#0fa3a3] font-medium text-base shadow-sm hover:bg-[#e6f6f6] transition"
@@ -89,7 +89,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
-          className="relative flex h-full justify-center items-center"
+          className="relative  h-full justify-center items-center hidden lg:flex"
         >
           {/* Badge */}
           {/* <motion.div

@@ -433,7 +433,7 @@ function PackageCard({ icon, title, price, ideal, includes, highlight }) {
         </div>
      
       <a
-        href="/#contact"
+        href="/contact"
         className="mt-6 w-full rounded-full bg-[#0fa3a3] py-3 text-white font-medium text-center block hover:bg-[#0c8c8c] transition"
         style={{ marginTop: "auto" }}
       >
