@@ -115,10 +115,14 @@ const HEALTH_PACKAGES = [
     ideal: "Young adults & first-time testers",
     includes: [
       "CBC",
-      "Fasting Blood Sugar",
-      "Lipid Profile",
-      "ECG",
-      "USG Upper Abdomen",
+      "ESR",
+      "LFT",
+      "KFT",
+      "Lipid",
+      "THYROID",
+      "URINE ROUTINE",
+      "SUGAR -F",
+      "CALCIUM",
     ],
   },
   {

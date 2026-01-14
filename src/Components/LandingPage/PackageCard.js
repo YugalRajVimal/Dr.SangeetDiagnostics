@@ -21,7 +21,7 @@ export default function HealthPackages() {
     {
       title: "Complete Body Checkup",
       price: "₹2150",
-      includes: "CBC, Fasting Blood Sugar, Lipid Profile, ECG, USG Upper Abdomen",
+      includes: "CBC, ESR, LFT, KFT, Lipid, THYROID, URINE ROUTINE, SUGAR -F, CALCIUM",
     },
     {
       title: "Know Your Lungs",

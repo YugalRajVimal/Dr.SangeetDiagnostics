@@ -241,13 +241,14 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           className="mt-24 rounded-2xl overflow-hidden shadow-xl"
         >
-          <iframe
+
+          <iframe 
             title="Google Map"
-            src="https://www.google.com/maps?q=Shakarpur%20Delhi&output=embed"
-            className="w-full h-[400px] border-0"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+          
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3501.8831843298685!2d77.28315307550078!3d28.633262975664447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM3JzU5LjgiTiA3N8KwMTcnMDguNiJF!5e0!3m2!1sen!2sin!4v1768380422288!5m2!1sen!2sin" 
+          className="w-full h-[400px] border-0"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"></iframe>
         </motion.div>
       </div>
     </section>
